@@ -1,0 +1,663 @@
+
+h1{
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+body{ 
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgb(7, 7, 7);}
+
+.oro{
+    color: rgb(250, 246, 246);
+    text-align: center;
+    font-size: 150%;
+}
+
+.fondoinicio{
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://i.pinimg.com/564x/b8/94/94/b894940192b8cbdf25a76ee40cb7f763.jpg);
+    background-position:20%;
+}
+.inicio li{
+    font-size: xx-large;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 3.0;
+    margin: 10px;
+    padding: 7px;
+}
+
+.inicio li a{
+    text-decoration: none;
+    color: rgb(238, 232, 232);
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+
+.inicio li a:hover{
+    background-color:rgb(6, 5, 99);
+}
+
+.tituloo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 500%; 
+    border:  solid 5px rgb(243, 235, 235);
+    
+}
+.titulo2{
+    text-align: center;
+    color: rgb(243, 239, 239);
+    font-size: 250%;
+    font-family: 'Bebas Neue', cursive;
+}
+.parrafo1{
+    text-align: center;
+    font-size: 150%;
+    color: rgb(245, 237, 237);
+}
+
+
+.tipos{
+    
+    color: rgb(243, 235, 235);
+    font-size: 250%;
+    text-align: center;
+}
+
+
+.tipos1 li{
+    color: rgb(248, 239, 239);
+    font-size: 150%;
+   text-align: center;   
+}
+
+
+.footerfondo li{
+    color: rgb(235, 232, 232);
+    background-color: white;
+    font-size: 150%;
+    list-style-type: none;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/78/06/3d/78063d629b2cc402458e60b6df335004.jpg);
+   
+  
+
+}
+
+/*SE ENCARGA DE TODO EL ESTILO DEL TEXTO DE TODA LA PAGINA*/
+
+
+.dato{
+    text-align: center;
+    
+}
+
+.volverinicio{
+    text-align: center;
+    list-style-type: none;
+}
+
+.volverinicio li a{
+    text-decoration: none;
+    
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.videoindex{
+    text-align: center;
+}
+.videoiframeindex{
+    text-align: center;
+}
+
+/* HTML QUIENES SOMOS*/
+
+.mainsomos{
+ display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "h1 h1 h1" "p p p" "img img img" "volver volver volver" "footer footer footer";
+}
+
+.h1somos{
+  grid-area: h1;
+}
+
+.psomos{
+  grid-area: p;
+}
+
+.imgsomos{
+  grid-area: img;
+}
+
+.volversomos{
+  grid-area: volver;
+}
+
+.footersomos{
+  grid-area: footer;
+}
+
+.footersomos li{
+    color: rgb(235, 232, 232);
+    background-color: white;
+    font-size: 150%;
+    list-style-type: none;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/78/06/3d/78063d629b2cc402458e60b6df335004.jpg);}
+
+    .fondoiniciosomos{
+        background-color: rgb(255, 255, 255);
+        background-image: url(https://i.pinimg.com/564x/b8/94/94/b894940192b8cbdf25a76ee40cb7f763.jpg);
+        background-position:20%;
+    }
+    .iniciosomos li{
+        font-size: xx-large;
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 3.0;
+        margin: 10px;
+        padding: 7px;
+    }
+    
+    .iniciosomos li a{
+        text-decoration: none;
+        color: rgb(245, 243, 243);
+        font-family: 'Bebas Neue', cursive;
+        
+        
+        
+    }
+    
+    .iniciosomos li a:hover{
+        background-color:rgb(6, 5, 99);
+    } 
+
+    .parrafosomos{
+        color: rgb(243, 235, 235);
+font-size: 250%;
+text-align: center;
+    }
+
+    .titulosomos{
+        font-size: 300%;
+    }
+/*no hace nada a menos que tenga"img"*/
+  .imagensomos{
+    display: block;
+    margin:auto
+  }
+
+  .volveriniciosomos{
+    text-align: center;
+    list-style-type: none;
+  }
+  .volveriniciosomos li a{
+    
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+  .imagensomos{
+      text-align: center;
+  }
+ .h1somos{
+   border: 2px solid rgb(15, 15, 15);
+   box-shadow: inset 0 0 5px rgb(11, 233, 11), 0 0 10px rgb(48, 224, 48) ;
+ margin: auto;
+ max-width: 300px;
+ text-align: center;
+ padding: 10px;
+  }
+
+
+    /*HTML CONTACTO*/
+
+    .maincontacto{
+      display: grid;
+      grid-template-areas: "h1 h1 h1"
+                           "info info info" 
+                           "h3 h3 h3"
+                           "dato dato dato"
+                           "mensa mensa mensa"
+                           "opcion opcion opcion" 
+                           "opcicolo opcicolo opcicolo"
+                           "ul ul ul"
+                           "volver volver volver"
+                          "footer footer footer";
+    /*grid-template-rows: 80px 1fr 40px 40px 40px 40px 40px 50px 80px 150px
+      ;*/
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .h1contacto{
+      grid-area: h1;
+    }
+
+    .infocontacto{
+      grid-area: info;
+    }
+
+    .h3oro{
+      grid-area: h3;
+    }
+
+    .datodatocontacto{
+      grid-area: dato;
+    }
+
+    .mensacontacto{
+      grid-area: mensa;
+      display: flex;
+      justify-content: center;
+    }
+
+    .opcioncontacto{
+      grid-area: opcion;
+      display: flex;
+      justify-content: center;
+    }
+
+    .opcioncolor{
+      grid-area: opcicolo;
+      display: flex;
+      justify-content: center;
+    }
+
+    .datocont{
+      grid-area: ul;
+    }
+
+    .volvercontacto{
+      grid-area: volver;
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .footercontacto{
+      grid-area: footer;
+      
+    }
+
+    .footercontacto li{
+        color: rgb(235, 232, 232);
+        background-color: white;
+        font-size: 150%;
+        list-style-type: none;
+        text-align: center;
+        background-image: url(https://i.pinimg.com/564x/78/06/3d/78063d629b2cc402458e60b6df335004.jpg);}
+
+       .contactocontacto h3{
+        font-size: 200%;
+        text-align: center;
+        color: white;
+       }
+      .contactocontacto p{
+        font-size: 150%;
+        text-align: center;
+        color: white;
+      }
+      
+      .datocontacto{
+        font-size: 90%;
+        text-align: center;
+        color: white;
+      }
+.titulocontacto{
+    font-size: 250%;
+}
+
+.volveriniciocontacto{
+    text-align: center;
+    list-style-type: none;
+  }
+  .volveriniciocontacto li a{
+    
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+
+  .opcioncolor{
+      color:rgb(248, 241, 241) ;
+  }
+
+  /* HTML DISEÑOS*/
+/*grid mas flex diseño*/
+  .maindiseño {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "h1d h1d h1d" "dise1 dise2 dise3" "dise4 dise5 dise6" ". dise7 ." "volver volver volver";
+  }
+
+  .h1diseño {
+    grid-area: h1d;
+  }
+
+  .dise11 {
+    grid-area: dise1;
+    justify-self: center;
+  }
+
+  .dise12 {
+    grid-area: dise2;
+  }
+  
+  .dise13 {
+    grid-area: dise3;
+  }
+
+  .dise14 {
+    grid-area: dise4;
+  }
+
+  .dise15 {
+    grid-area: dise5;
+  }
+
+  .dise16 {
+    grid-area: dise6;
+  }
+
+  .dise17 {
+    grid-area: dise7;
+  }
+
+  .volverdiseño {
+    grid-area: volver;
+  }
+  
+  .volveriniciodiseño{
+        text-align: center;
+        list-style-type: none;
+      }
+      .volveriniciodiseño li a{
+        
+        background: rgb(131,58,180);
+        background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+      }
+      
+      .dise1{
+        width: 100%;
+      }
+      .dise2{
+        width: 100%;
+        
+      }
+      .dise3{
+        width: 100%;
+        
+      }
+      .dise4{
+        width: 100%;
+        
+      }
+      .dise5{
+        width: 100%;
+        
+      }
+      .dise6{
+        width: 100%;
+        
+      }
+      .dise7{
+        width: 100%;
+        
+      }
+      .diseñoscentro{
+        text-align: center;
+      } 
+      
+      .footerdiseño li{
+       color: rgb(235, 232, 232);
+       background-color: white;
+       font-size: 150%;
+       list-style-type: none;
+       text-align: center;
+       background-image: url(https://i.pinimg.com/564x/78/06/3d/78063d629b2cc402458e60b6df335004.jpg);}
+      
+      
+      /*HTML PROMOCIONES*/
+      
+      .mainpromociones{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "h1 h1 h1" "torna mundi davi" "precio1 precio2 precio3" "volver volver volver" "footer footer footer";
+        
+      }
+
+      .h1promociones{
+        grid-area: h1;
+      }
+      
+      .centro1{
+        grid-area: torna;
+        
+      }
+
+      .centro2{
+        grid-area: mundi;
+      }
+
+      .centro3{
+        grid-area: davi;
+        width: 100%;
+      }
+
+      .precio1{
+        grid-area: precio1;
+        justify-content: center;
+      }
+
+      .volverpromo{
+        grid-area: volver;
+      }
+
+      .footerpromociones{
+        grid-area: footer;
+      width: 100%;
+      }
+
+
+      .footerpromociones li{
+        color: rgb(235, 232, 232);
+        background-color: white;
+        font-size: 150%;
+        list-style-type: none;
+        text-align: center;
+        background-image: url(https://i.pinimg.com/564x/78/06/3d/78063d629b2cc402458e60b6df335004.jpg);}
+        
+        
+        .volveriniciopromo{
+            text-align: center;
+            list-style-type: none;
+          }
+          .volveriniciopromo li a{
+            
+            background: rgb(131,58,180);
+        background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+          }
+
+          .precio1{
+            font-weight: bold;
+            font-size: 200%;
+            text-align: center;
+            color: white;
+          }
+
+          .torna{
+              width: 100%;
+             
+          }
+          .centro1{
+              text-align: center;
+          }
+
+          .mundi{
+            width: 100%;
+          }
+          .precio2{
+            font-weight: bold;
+            font-size: 200%;
+            text-align: center;
+            color: white;
+          }
+          .centro2{
+              text-align: center;
+          }
+
+          .centro3{
+              text-align: center;
+          }
+          .davi{
+            width: 100%;
+          }
+          .precio3{
+            font-weight: bold;
+            font-size: 200%;
+            text-align: center;
+            color: white;
+          }
+        
+          /*grid y flex index*/
+/*body{ 
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgb(7, 7, 7);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header header" "main main" "footer footer";
+}
+
+header {
+  grid-area: header;
+  justify-self: center;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}*/
+
+/* responsive index*/
+@media only screen and (min-width:375px) and (max-width:767px) {
+  
+.bodyindex{
+  grid-template-areas: "header header header"
+                       "main main main" 
+                       "footer footer footer";
+  grid-template-rows: 650px 3fr 100px;
+  grid-template-columns:3, 1fr ;
+}  
+
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tituloo{
+  font-size: 60px;
+  
+}
+
+.videoindex{
+  width: 50px;
+  
+  
+}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  .bodyindex{
+    grid-template-areas: "header header header"
+                         "main main main" 
+                         "footer footer footer";
+    grid-template-rows: 100px 3fr 100px;
+    grid-template-columns:3, 1fr ;
+  }  
+
+.tituloo{
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+
+/*responsive para contacto*/
+@media only screen and (min-width:375px) and (max-width:767px){
+
+  .maincontacto{
+  display: grid;
+  grid-template-areas: "h1 h1 h1"
+                       "info info info" 
+                       "h3 h3 h3"
+                       "dato dato dato"
+                       "mensa mensa mensa"
+                       "opcion opcion opcion" 
+                       "opcicolo opcicolo opcicolo"
+                       "ul ul ul"
+                       "volver volver volver"
+                      "footer footer footer";
+  grid-template-columns: repeat(3, 1fr);   
+
+
+                    }
+
+  .headercontacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+  .maincontacto{
+    display: grid;
+    grid-template-areas: "h1 h1 h1"
+                         "info info info" 
+                         "h3 h3 h3"
+                         "dato dato dato"
+                         "mensa mensa mensa"
+                         "opcion opcion opcion" 
+                         "opcicolo opcicolo opcicolo"
+                         "ul ul ul"
+                         "volver volver volver"
+                        "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);   
+  
+  
+                      }
+
+}
+
+/*responsive quienes somos*/
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+.psomos{
+  display: flex;
+  justify-content: center;
+}
+
+
+}
